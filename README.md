@@ -200,7 +200,6 @@ api_key = "your_api_key"  # Keep this secure!
 deployment_name = "your_deployment"
 ```
 
-**Note**: Remove sensitive API keys before sharing code publicly.
 
 ## 📊 Evaluation Metrics
 
