@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <a href="AR-MAP/AR-MAP.pdf">
+  <a href="AR-MAP.pdf">
     <img
       src="https://img.shields.io/badge/Paper-PDF-red?logo=adobe&logoColor=red"
       alt="AR-MAP Paper"
@@ -32,7 +32,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/framework.png" alt="AR-MAP Framework Cover" width="800">
+  <img src="AR-MAP.png" alt="AR-MAP Framework Cover" width="800">
   <br>
   <em>Figure: The AR-MAP Framework. Transferring alignment from AR Teachers to Diffusion Students.</em>
 </p>
