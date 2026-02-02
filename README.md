@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <a href="AR-MAP.pdf">
+  <a href="AR-MAP/AR-MAP.pdf">
     <img
       src="https://img.shields.io/badge/Paper-PDF-red?logo=adobe&logoColor=red"
       alt="AR-MAP Paper"
