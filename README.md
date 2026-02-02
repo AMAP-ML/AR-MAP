@@ -1,20 +1,26 @@
 <div align="center">
   <h1>AR-MAP</h1>
-  <h3>Autoregressive Model Alignment via Multi-Aspect Preference Optimization</h3>
-  <h4>A comprehensive framework for multi-aspect preference optimization in language models</h4>
+  <h3>Are Autoregressive Large Language Models Implicit Teachers for Diffusion Large Language Models?</h3>
+  <h4>A comprehensive framework for transferring alignment knowledge from AR-LLMs to Diffusion Models</h4>
 </div>
 
 <p align="center">
-  <a href="ARMAP_ARXIV.pdf">
+  <a href="AR-MAP.pdf">
     <img
       src="https://img.shields.io/badge/Paper-PDF-red?logo=adobe&logoColor=red"
       alt="AR-MAP Paper"
     />
   </a>
+  <a href="https://huggingface.co/aijwhedqie/AR-MAP-weight/tree/main">
+    <img
+      src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow"
+      alt="Hugging Face Models"
+    />
+  </a>
   <a href="#quick-start">
     <img 
         src="https://img.shields.io/badge/Quick-Start-green?logo=rocket" 
-        alt="Quick Start"
+        alt="Quick Start" 
     />
   </a>
   <a href="#features">
@@ -25,9 +31,15 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="assets/framework.png" alt="AR-MAP Framework Cover" width="800">
+  <br>
+  <em>Figure: The AR-MAP Framework. Transferring alignment from AR Teachers to Diffusion Students.</em>
+</p>
+
 ## 📖 Overview
 
-AR-MAP is a novel framework for aligning autoregressive language models through multi-aspect preference optimization. This repository contains the complete implementation including:
+**AR-MAP** (Autoregressive Model Alignment for Diffusion) is a novel transfer learning framework that leverages preference-aligned Autoregressive LLMs (AR-LLMs) as implicit teachers for Diffusion LLMs (DLLMs). This repository contains the complete implementation including:
 
 - **Multi-aspect DPO training** for helpfulness, truthfulness, and mathematical reasoning
 - **Comprehensive evaluation suite** across multiple benchmarks
@@ -196,7 +208,7 @@ Our framework evaluates models across multiple dimensions:
 
 - **Helpfulness**: Measured via AlpacaEval with GPT-4 as judge
 - **Truthfulness**: Evaluated on TruthfulQA benchmark
-- **Mathematical Reasoning**: Tested on MATH and GSM8K datasets
+- **Mathematical Reasoning**: Tested on MATH and GSM8K datasets, Please note that we use the framework in [TraceRL](https://github.com/Gen-Verse/dLLM-RL) for evaluation.
 - **General Capabilities**: Arena-Hard benchmark
 - **Instruction Following**: IFEval benchmark
 
